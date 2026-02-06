@@ -1,0 +1,72 @@
+---
+title: "Cloud IDE"
+description: "Code in the browser with HackerSquad's Cloud IDE powered by Fly.io"
+---
+
+The HackerSquad Cloud IDE is a browser-based VS Code environment that lets you write, run, and test code without any local setup. Powered by Fly.io, each session runs in a dedicated container with persistent file storage so you never lose your work.
+
+<Note>Cloud IDE is available when enabled by the event organizer and requires the organizing company to have a **Pro** plan or higher. See [Plans & Pricing](/plans-and-pricing) for details.</Note>
+
+## What you get
+
+The Cloud IDE provides a full development environment in your browser:
+
+- **VS Code interface** — A familiar editing experience with syntax highlighting, IntelliSense, and extensions
+- **Dedicated container** — Your own isolated environment running on Fly.io infrastructure
+- **Persistent storage** — Files are saved to a dedicated volume and persist across sessions
+- **Port forwarding** — Run web apps and access them directly from the IDE
+- **Multiple runtimes** — Choose from several pre-configured environments
+
+## Supported runtimes
+
+| Runtime | Description |
+| --- | --- |
+| **Python** | Python environment with pip for package management |
+| **Node.js** | Node.js environment with npm for package management |
+| **Streamlit** | Python with Streamlit pre-installed for data apps and dashboards |
+| **Custom** | A base environment you can configure with your own tools and dependencies |
+
+## How to launch
+
+<Steps>
+  <Step title="Open the event page">
+    Navigate to the event you're registered for and look for the **Cloud IDE** section or button.
+  </Step>
+  <Step title="Select a runtime">
+    Choose the runtime that matches your project: Python, Node.js, Streamlit, or Custom.
+  </Step>
+  <Step title="Launch the IDE">
+    Click **Launch** to start your container. The IDE will open in a new browser tab with a full VS Code interface.
+  </Step>
+  <Step title="Start coding">
+    Write your code, install packages, and build your project. Use the integrated terminal to run commands.
+  </Step>
+</Steps>
+
+<Tip>Your files persist between sessions. You can stop and restart the IDE without losing your work.</Tip>
+
+## Running web apps
+
+If your project includes a web application, the Cloud IDE supports port forwarding. Start your development server in the terminal (e.g., `npm run dev` or `streamlit run app.py`), and the IDE will provide a URL to access your running app in the browser.
+
+## Session management
+
+- **Starting a session** — Launch from the event page to create or resume your container
+- **Stopping a session** — Close the browser tab or explicitly stop the session. Your files remain saved on the persistent volume
+- **Resuming** — Reopen the IDE from the event page to pick up where you left off with all files intact
+
+<Note>Cloud IDE sessions consume hours from the organizing company's plan allocation. Session availability depends on the event organizer's remaining Cloud IDE hours.</Note>
+
+## Next steps
+
+<Columns>
+  <Card title="Submit your project" icon="code" href="/builders/project-submissions">
+    Submit what you've built
+  </Card>
+  <Card title="Demos & Voting" icon="tv" href="/builders/demos-and-voting">
+    Present your work live
+  </Card>
+  <Card title="Teams" icon="people-group" href="/builders/teams">
+    Collaborate with others
+  </Card>
+</Columns>
