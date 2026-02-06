@@ -1,0 +1,87 @@
+---
+title: "Live Demos"
+description: "Stream live project demos via WebRTC and manage the presentation queue"
+---
+
+The **Live Demos** tab in the Event Management dashboard lets you manage real-time project presentations streamed via WebRTC. Access it from the [Event Management Overview](/event-management/overview) by clicking the **Live Demos** tab.
+
+<Tip>Use the live demo system to project builder presentations to a screen during the event. Builders stream from their browser and you control the presentation queue.</Tip>
+
+## How live demos work
+
+The live demo system uses WebRTC for real-time video streaming between the presenter (builder) and the event screen:
+
+1. A builder requests to present their project
+2. The event manager approves or rejects the request
+3. Once approved, the builder starts their WebRTC stream from their browser
+4. The manager views and controls the live stream on the event management page
+5. Optionally, the demo is recorded for later review
+
+## Presentation requests
+
+When builders request to present a live demo, their requests appear in the queue:
+
+| Field | Description |
+| --- | --- |
+| **Project name** | The project being presented |
+| **Presenter** | The builder requesting to present |
+| **Status** | Request status: **Pending**, **Approved**, **Rejected**, or **Live** |
+
+### Approving or rejecting requests
+
+<Steps>
+  <Step title="Review pending requests">
+    Check the presentation queue for incoming demo requests from builders.
+  </Step>
+  <Step title="Approve or reject">
+    Click **Approve** to allow the builder to start streaming, or **Reject** to decline the request.
+  </Step>
+  <Step title="Notify the presenter">
+    Approved builders are notified and can begin their live stream when ready.
+  </Step>
+</Steps>
+
+## Managing the presentation queue
+
+The presentation queue shows all approved demos in order. As the event manager, you control the flow of presentations:
+
+- **Reorder presentations** — drag and drop to change the presentation order
+- **Start next demo** — move to the next builder in the queue
+- **Remove from queue** — remove a demo if the team is no longer available
+
+## Viewing the live stream
+
+When a builder is presenting, the live stream appears on the Live Demos page. The WebRTC stream provides:
+
+- **Real-time video and audio** from the presenter's browser
+- **Low-latency streaming** suitable for projecting to event screens
+- **Stream controls** — mute, pause, or end the stream
+
+<Note>Both the presenter and viewer need a modern browser with WebRTC support. Chrome, Firefox, Safari, and Edge all support WebRTC.</Note>
+
+## Recording demos
+
+Demo presentations can be recorded for later review:
+
+- **Start recording** — click the record button while a demo is live
+- **Stop recording** — end the recording when the presentation finishes
+- **View recordings** — access saved recordings from the Live Demos page after the event
+
+Recordings are uploaded and stored automatically. They can be shared with judges who weren't present during the live demo or included in post-event reports.
+
+## Next steps
+
+<Columns>
+  <Card title="Projects" icon="folder-open" href="/event-management/projects">
+    View all project submissions and details.
+  </Card>
+  <Card title="Demos" icon="presentation-screen" href="/event-management/demos">
+    Manage demo approvals for Demo Day events.
+  </Card>
+  <Card title="Judges" icon="gavel" href="/event-management/judges">
+    Set up judges to score the demo presentations.
+  </Card>
+  <Card title="Leaderboard" icon="ranking-star" href="/event-management/leaderboard">
+    View real-time rankings after judging.
+  </Card>
+</Columns>
