@@ -1,0 +1,91 @@
+---
+title: "Event Settings"
+description: "Configure your event's slug, co-managers, judging options, Cloud IDE, and access controls"
+---
+
+The **Settings** tab in the Event Management dashboard lets you customize how your event works. Access it from the [Event Management Overview](/event-management/overview) by clicking the **Settings** tab.
+
+## Custom event slug
+
+Set a custom URL slug for your event's public page. This makes it easier for attendees to find and share your event.
+
+For example, setting the slug to `summer-hack-2026` creates a public URL like `hackersquad.io/events/summer-hack-2026`.
+
+<Tip>Choose a short, memorable slug that describes your event. Avoid special characters — use lowercase letters, numbers, and hyphens only.</Tip>
+
+## Manager invites (co-management)
+
+Invite other users to help manage your event. Co-managers have access to the same Event Management dashboard and can perform all management actions.
+
+<Steps>
+  <Step title="Open the Settings tab">
+    Navigate to your event's management page and click **Settings**.
+  </Step>
+  <Step title="Enter email address">
+    In the **Manager Invites** section, type the email address of the person you want to invite.
+  </Step>
+  <Step title="Send invitation">
+    Click **Invite**. The invited user will receive an email with a link to accept the co-management role.
+  </Step>
+</Steps>
+
+<Note>Co-managers have full access to all event management tabs and actions. Only invite people you trust to manage your event.</Note>
+
+## Community judging
+
+Enable community judging to let event attendees vote on projects alongside (or instead of) formal judges.
+
+When community judging is enabled, two additional settings become available:
+
+| Setting | Description |
+| --- | --- |
+| **Max votes per user** | The maximum number of votes each attendee can cast across all projects |
+| **Max votes per project** | The maximum number of votes a single project can receive from one user |
+
+<Tip>Setting max votes per user to 3-5 encourages attendees to be selective. Setting max votes per project to 1 ensures votes are spread across projects.</Tip>
+
+Community votes are aggregated and displayed on the [Leaderboard](/event-management/leaderboard) alongside judge scores. See [Community Voting](/event-management/community-voting) for more details.
+
+## Cloud IDE
+
+<Info>Cloud IDE requires a **Pro, Scale, or Enterprise** plan.</Info>
+
+Toggle the Cloud IDE on or off for your event. When enabled, registered attendees can launch a browser-based VS Code environment directly from the event page.
+
+The Cloud IDE supports multiple runtimes (Python, Node.js, Streamlit, Custom) and provides persistent file storage across sessions. See [Cloud IDE](/builders/cloud-ide) for the builder-facing documentation.
+
+If your company is on a Free or Starter plan, the Cloud IDE toggle is disabled. Visit [Plans & Pricing](/plans-and-pricing) to upgrade.
+
+## Event password protection
+
+Set a password to restrict access to your event's registration page. Only attendees who enter the correct password can register.
+
+This is useful for private events, internal company hackathons, or invite-only gatherings.
+
+<Note>The password protects the registration page only. The public event page remains visible to all users.</Note>
+
+## Settings summary
+
+| Setting | Description | Default |
+| --- | --- | --- |
+| **Custom slug** | URL-friendly identifier for your event | Auto-generated |
+| **Manager invites** | Email-based co-manager invitations | None |
+| **Community judging** | Enable attendee voting on projects | Disabled |
+| **Max votes per user** | Limit total votes per attendee | Configurable |
+| **Max votes per project** | Limit votes per project per attendee | Configurable |
+| **Cloud IDE** | Browser-based development environment | Disabled (Pro+ required) |
+| **Event password** | Password-protect event registration | None |
+
+## Next steps
+
+<Columns>
+  <Card title="Registrations" icon="clipboard-list" href="/event-management/registrations">
+    View and manage attendee registrations.
+  </Card>
+  <Card title="Judges" icon="gavel" href="/event-management/judges">
+    Set up judges and judging rounds.
+  </Card>
+  <Card title="Community Voting" icon="thumbs-up" href="/event-management/community-voting">
+    Learn how community judging works.
+  </Card>
+</Columns>
