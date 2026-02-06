@@ -1,0 +1,94 @@
+---
+title: "Judges"
+description: "Add judges, configure tournament-style rounds, and organize judging groups for your event"
+---
+
+The **Judges** tab in the Event Management dashboard lets you set up and manage the judging panel for your event. Access it from the [Event Management Overview](/event-management/overview) by clicking the **Judges** tab.
+
+HackerSquad uses a **tournament-style judging system** where projects advance through rounds, judges are organized into groups, and scores are aggregated for fair, structured evaluation.
+
+## Judging structure
+
+The judging system is organized in a hierarchy:
+
+| Level | Description |
+| --- | --- |
+| **Judging Round** | A stage of evaluation (e.g., Round 1 preliminary, Round 2 finals). Projects advance between rounds. |
+| **Judging Group** | A subset of judges within a round. Each group evaluates a specific set of projects. |
+| **Judges** | Individual judges assigned to groups. Each judge scores the projects in their group. |
+| **Projects** | Projects assigned to groups for evaluation. A project may appear in one group per round. |
+
+## Adding judges
+
+To add judges to your event:
+
+<Steps>
+  <Step title="Open the Judges tab">
+    Navigate to your event's management page and click the **Judges** tab.
+  </Step>
+  <Step title="Add a judge">
+    Click **Add Judge** and enter the judge's details: name, email, and area of expertise or role.
+  </Step>
+  <Step title="Assign to a group">
+    Once judging rounds and groups are configured, assign the judge to one or more judging groups.
+  </Step>
+</Steps>
+
+## Setting up judging rounds
+
+Rounds let you run multi-stage evaluation — for example, a preliminary round to narrow the field followed by a final round for top projects.
+
+<Steps>
+  <Step title="Create a round">
+    Click **Create Round** and give it a name (e.g., "Preliminary Round" or "Finals").
+  </Step>
+  <Step title="Create groups within the round">
+    Each round contains one or more judging groups. Click **Add Group** within a round to create groups. Groups let you split judges and projects so each judge reviews a manageable number of submissions.
+  </Step>
+  <Step title="Assign judges to groups">
+    Add judges to each group. Use the **Auto-Balance Judges** feature to distribute judges evenly across groups.
+  </Step>
+  <Step title="Assign projects to groups">
+    Add projects to each group. Use the **Auto-Balance Projects** feature to distribute projects fairly so each group has a similar workload.
+  </Step>
+</Steps>
+
+## Auto-balancing
+
+HackerSquad provides two auto-balancing tools to save time and ensure fairness:
+
+| Feature | What it does |
+| --- | --- |
+| **Auto-Balance Judges** | Distributes judges as evenly as possible across all groups in a round |
+| **Auto-Balance Projects** | Distributes projects as evenly as possible across all groups in a round |
+
+<Tip>Use auto-balancing after adding all judges and projects for the round. You can manually adjust assignments afterward if needed.</Tip>
+
+## Conflict of interest detection
+
+When assigning judges to groups, the system checks for potential conflicts of interest — for example, a judge who is associated with a team or sponsor that has a project in the same group. Flagged conflicts are surfaced so you can reassign judges or projects as needed.
+
+## Managing judges
+
+From the Judges tab you can:
+
+- **View all judges** — see each judge's name, email, expertise, and group assignments
+- **Edit judge details** — update a judge's information or expertise
+- **Remove a judge** — remove a judge from the event entirely
+- **Reassign judges** — move a judge between groups within a round
+
+<Note>Changes to judge assignments after scoring has begun may affect score consistency. Reassign judges before the judging period starts whenever possible.</Note>
+
+## Next steps
+
+<Columns>
+  <Card title="Judge Scoring" icon="star" href="/event-management/judge-scoring">
+    Configure scoring criteria and review judge scores.
+  </Card>
+  <Card title="Leaderboard" icon="ranking-star" href="/event-management/leaderboard">
+    View real-time rankings based on judge and community scores.
+  </Card>
+  <Card title="Community Voting" icon="thumbs-up" href="/event-management/community-voting">
+    Enable community judging for attendee voting.
+  </Card>
+</Columns>

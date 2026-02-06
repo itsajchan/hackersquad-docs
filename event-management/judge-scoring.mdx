@@ -1,0 +1,103 @@
+---
+title: "Judge Scoring"
+description: "Configure scoring criteria, review judge scores, and manage round progression"
+---
+
+The **Judge Votes** tab in the Event Management dashboard shows all scoring activity from your judges. Access it from the [Event Management Overview](/event-management/overview) by clicking the **Judge Votes** tab.
+
+This page covers how scoring works, how to configure criteria, and how to advance projects between rounds.
+
+## Scoring criteria and rubrics
+
+Each event can define scoring criteria that judges use to evaluate projects. Criteria are the dimensions on which projects are scored — for example, innovation, technical execution, presentation quality, or impact.
+
+| Setting | Description |
+| --- | --- |
+| **Criteria name** | The dimension being scored (e.g., "Innovation", "Technical Complexity") |
+| **Description** | Guidance for judges on what this criterion measures |
+| **Weight** | Relative importance of this criterion when calculating the overall score (when category weighting is enabled) |
+
+### Category weighting
+
+When category weighting is enabled, each criterion has a weight that determines how much it contributes to the project's overall score. For example:
+
+| Criterion | Weight | Impact |
+| --- | --- | --- |
+| Innovation | 30% | Heavily influences the total score |
+| Technical Execution | 40% | Most influential criterion |
+| Presentation | 15% | Moderate influence |
+| Impact | 15% | Moderate influence |
+
+<Note>When category weighting is disabled, all criteria contribute equally to the overall score.</Note>
+
+## How judges score
+
+Within their assigned judging group, judges evaluate each project by:
+
+1. **Reviewing the project** — reading the description, GitHub link, demo description, and technologies used
+2. **Scoring each criterion** — assigning a numeric score for each defined criterion
+3. **Adding notes** — providing optional written feedback about the project
+
+Judges can only score projects assigned to their judging group. Scores are saved automatically as judges work through their assigned projects.
+
+## Viewing scores
+
+The Judge Votes tab displays:
+
+| Column | Description |
+| --- | --- |
+| **Project** | The project being scored |
+| **Judge** | The judge who submitted the score |
+| **Round** | Which judging round the score belongs to |
+| **Criteria scores** | Individual scores for each criterion |
+| **Overall score** | Aggregated score (weighted or unweighted depending on configuration) |
+| **Notes** | Judge's written feedback on the project |
+
+You can filter scores by round, group, or judge to drill into specific scoring details.
+
+## Score aggregation
+
+Project scores are aggregated across all judges in a group:
+
+- Each judge's scores for a project are combined per criterion
+- If category weighting is enabled, criteria scores are multiplied by their weight
+- The final project score for a round is the average of all judge scores in the group
+
+## Round progression
+
+For multi-round tournaments, you advance top-scoring projects from one round to the next:
+
+<Steps>
+  <Step title="Review round results">
+    After all judges in a round have completed scoring, review the leaderboard to see project rankings for that round.
+  </Step>
+  <Step title="Select advancing projects">
+    Choose which projects advance to the next round. Typically this is the top N projects by score.
+  </Step>
+  <Step title="Assign to next round groups">
+    Add the advancing projects to judging groups in the next round. Use auto-balancing to distribute them evenly.
+  </Step>
+  <Step title="Begin next round">
+    Judges assigned to the new round can now begin scoring the advancing projects.
+  </Step>
+</Steps>
+
+## Late submission tracking
+
+The system tracks whether projects were submitted after the official deadline. Late submissions are flagged so judges and managers can factor timeliness into their evaluation if desired.
+
+<Tip>Review all judge scores before advancing projects to the next round. Ensure every project in a group has been scored to avoid incomplete rankings.</Tip>
+
+## Next steps
+
+<Columns>
+  <Card title="Leaderboard" icon="ranking-star" href="/event-management/leaderboard">
+    View real-time rankings and score breakdowns.
+  </Card>
+  <Card title="Judges" icon="gavel" href="/event-management/judges">
+    Manage judge assignments and groups.
+  </Card>
+  <Card title="Community Voting" icon="thumbs-up" href="/event-management/community-voting">
+    Enable attendee voting alongside judge scoring.
+  </Card>
+</Columns>

@@ -1,0 +1,83 @@
+---
+title: "Leaderboard"
+description: "View real-time project rankings with score breakdowns from judges and community votes"
+---
+
+The **Leaderboard** tab in the Event Management dashboard shows real-time project rankings for your event. Access it from the [Event Management Overview](/event-management/overview) by clicking the **Leaderboard** tab.
+
+The leaderboard aggregates judge scores and community votes (when enabled) into a unified ranking that updates as new scores come in.
+
+## Leaderboard display
+
+The leaderboard shows all scored projects ranked from highest to lowest overall score:
+
+| Column | Description |
+| --- | --- |
+| **Rank** | Project's position in the leaderboard |
+| **Project** | Project name and team |
+| **Judge Score** | Average score from all judges who evaluated the project |
+| **Community Votes** | Number of community votes received (when community judging is enabled) |
+| **Overall Score** | Combined score used for final ranking |
+| **Round** | Which judging round the score is from |
+
+## How scores are calculated
+
+The overall score that determines rankings is calculated by combining judge scores and community votes:
+
+### Judge scores only (community judging disabled)
+
+When community judging is not enabled, the leaderboard ranking is based entirely on judge scores:
+
+- Each project's score is the average of all judge scores in its group
+- If category weighting is enabled, criteria are weighted before averaging
+- Projects are ranked from highest to lowest average score
+
+### Judge scores + community votes (community judging enabled)
+
+When community judging is enabled in [Event Settings](/event-management/event-settings), community votes are factored into the overall ranking alongside judge scores. The leaderboard displays both components so you can see how each contributes to the final ranking.
+
+<Note>Judge scores and community votes are displayed separately on the leaderboard so event managers can evaluate both signals independently.</Note>
+
+## Score breakdowns
+
+Click on any project in the leaderboard to see a detailed score breakdown:
+
+- **Per-judge scores** — how each individual judge scored the project, broken down by criterion
+- **Criteria averages** — average score for each criterion across all judges
+- **Community vote count** — total votes from community voting
+- **Round history** — scores from each judging round the project participated in (for multi-round tournaments)
+
+## Filtering and views
+
+The leaderboard supports filtering to help you focus on specific subsets:
+
+- **By round** — view rankings for a specific judging round
+- **By group** — see rankings within a single judging group
+- **Overall** — the default view showing final rankings across all rounds
+
+## Using the leaderboard during events
+
+The leaderboard is useful at different stages of your event:
+
+| Stage | Use case |
+| --- | --- |
+| **During judging** | Monitor scoring progress and identify projects that haven't been scored yet |
+| **Between rounds** | Decide which projects advance to the next round based on rankings |
+| **After judging** | Determine final winners for prize categories |
+| **Post-event** | Share results with attendees, sponsors, and stakeholders |
+
+<Tip>Check the leaderboard after each judging round to ensure all projects have been scored before advancing projects or announcing results.</Tip>
+
+## Next steps
+
+<Columns>
+  <Card title="Judge Scoring" icon="star" href="/event-management/judge-scoring">
+    Review detailed scoring and manage round progression.
+  </Card>
+  <Card title="Community Voting" icon="thumbs-up" href="/event-management/community-voting">
+    Configure community judging to add attendee votes.
+  </Card>
+  <Card title="Prizes" icon="trophy" href="/event-management/prizes">
+    Assign prizes to top-ranking projects.
+  </Card>
+</Columns>

@@ -1,0 +1,79 @@
+---
+title: "Community Voting"
+description: "Enable attendee voting so the community can help rank projects alongside judges"
+---
+
+Community voting lets event attendees cast votes for their favorite projects, adding a crowd-sourced signal alongside [judge scoring](/event-management/judge-scoring). When enabled, community votes are factored into the [Leaderboard](/event-management/leaderboard) rankings.
+
+## Enabling community judging
+
+Community voting is configured in your event's settings:
+
+<Steps>
+  <Step title="Open Event Settings">
+    Navigate to the [Event Settings](/event-management/event-settings) tab in your event's management dashboard.
+  </Step>
+  <Step title="Enable community judging">
+    Toggle **Community Judging** to on. This makes the voting interface available to registered attendees.
+  </Step>
+  <Step title="Configure max votes per user">
+    Set the maximum number of total votes each attendee can cast across all projects. This prevents any single user from dominating the results.
+  </Step>
+  <Step title="Configure max votes per project">
+    Set the maximum number of votes any single attendee can give to one project. Setting this to 1 means each person gets one vote per project.
+  </Step>
+</Steps>
+
+<Note>You can enable or disable community voting at any time during the event. Existing votes are preserved if you toggle it off and back on.</Note>
+
+## How voting works for attendees
+
+When community judging is enabled, registered attendees can vote on projects from the event page:
+
+1. **Browse projects** — attendees see all submitted projects for the event
+2. **Cast votes** — click the vote button on projects they want to support
+3. **Vote limits enforced** — the system prevents voting beyond the configured per-user and per-project limits
+4. **View leaderboard** — attendees can see the public leaderboard with community vote counts
+
+## Vote limits
+
+Vote limits help keep community voting fair and meaningful:
+
+| Setting | Description | Example |
+| --- | --- | --- |
+| **Max votes per user** | Total votes one attendee can cast across all projects | 5 votes total |
+| **Max votes per project** | Maximum votes one attendee can give to a single project | 1 vote per project |
+
+<Tip>A common configuration is 5 max votes per user and 1 max vote per project — this encourages attendees to spread their votes across multiple projects they find interesting.</Tip>
+
+## Vote aggregation in the leaderboard
+
+Community votes are aggregated and displayed on the [Leaderboard](/event-management/leaderboard):
+
+- **Vote count** — the total number of community votes each project received
+- **Alongside judge scores** — both judge scores and community votes are shown so managers can weigh each signal
+- **Combined ranking** — the overall leaderboard ranking factors in both judge scores and community votes
+
+## Monitoring votes
+
+From the event management dashboard, you can monitor community voting activity:
+
+- **Total votes cast** — visible in the event stats dashboard under Project stats
+- **Per-project votes** — visible on the leaderboard and in project details
+- **Voting progress** — track how many attendees have used their votes
+
+<Warning>Community voting is public — attendees can see vote counts. If you want judges to score independently without community influence, complete judge scoring before enabling community voting.</Warning>
+
+## Next steps
+
+<Columns>
+  <Card title="Event Settings" icon="gear" href="/event-management/event-settings">
+    Configure community judging limits and other event settings.
+  </Card>
+  <Card title="Leaderboard" icon="ranking-star" href="/event-management/leaderboard">
+    View combined rankings from judges and community votes.
+  </Card>
+  <Card title="Judge Scoring" icon="star" href="/event-management/judge-scoring">
+    Review judge scores alongside community votes.
+  </Card>
+</Columns>
