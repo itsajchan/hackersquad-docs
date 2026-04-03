@@ -19,159 +19,57 @@
               "index",
               "quickstart"
             ]
-          },
-          {
-            "group": "Account Setup",
-            "pages": [
-              "authentication",
-              "company-setup",
-              "plans-and-pricing"
-            ]
           }
         ]
       },
+      
       {
-        "tab": "Company Portal",
+        "tab": "Event Managers",
         "groups": [
           {
-            "group": "Dashboard",
+            "group": "How To",
             "pages": [
-              "company-portal/dashboard",
-              "company-portal/profile",
-              "company-portal/team"
+              "event-managers/host-an-event",
+              "event-managers/create-an-event",
+              "event-managers/view-projects",
+              "event-managers/add-partner-companies",
+              "event-managers/add-event-managers",
+              "event-managers/add-prizes",
+              "event-managers/send-event-blast",
+              "event-managers/manage-feedback",
+              "event-managers/manage-volunteers",
+              "event-managers/capture-live-demos",
+              "event-managers/capture-live-presentations"
             ]
           },
           {
-            "group": "Events",
+            "group": "Tips for Hosting",
             "pages": [
-              "company-portal/events-overview",
-              "company-portal/creating-events",
-              "company-portal/event-marketplace",
-              "company-portal/sponsoring-events"
-            ]
-          },
-          {
-            "group": "Content & Contracts",
-            "pages": [
-              "company-portal/social-content-generator",
-              "company-portal/contracts"
+              "Conciseness",
+              "Resources",
+              "Support the Community"
             ]
           }
         ]
       },
-      {
-        "tab": "Event Management",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": [
-              "event-management/overview",
-              "event-management/event-settings"
-            ]
-          },
-          {
-            "group": "Attendees & Teams",
-            "pages": [
-              "event-management/registrations",
-              "event-management/volunteers"
-            ]
-          },
-          {
-            "group": "Projects & Demos",
-            "pages": [
-              "event-management/projects",
-              "event-management/demos",
-              "event-management/live-demos",
-              "event-management/engineering-notebooks"
-            ]
-          },
-          {
-            "group": "Judging",
-            "pages": [
-              "event-management/judges",
-              "event-management/judge-scoring",
-              "event-management/leaderboard",
-              "event-management/community-voting"
-            ]
-          },
-          {
-            "group": "Speakers",
-            "pages": [
-              "event-management/speakers",
-              "event-management/live-speakers"
-            ]
-          },
-          {
-            "group": "Sponsors & Prizes",
-            "pages": [
-              "event-management/sponsorships",
-              "event-management/prizes",
-              "event-management/feedback"
-            ]
-          }
-        ]
-      },
+            
       {
         "tab": "Builders",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "How To",
             "pages": [
-              "builders/overview",
-              "builders/finding-events",
-              "builders/registration"
-            ]
-          },
-          {
-            "group": "Participating",
-            "pages": [
-              "builders/project-submissions",
-              "builders/cloud-ide",
-              "builders/demos-and-voting",
-              "builders/engineering-notebooks"
-            ]
-          },
-          {
-            "group": "Community",
-            "pages": [
-              "builders/profile",
-              "builders/teams",
-              "builders/bounty-board"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Squad Leaders",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "squad-leaders/overview",
-              "squad-leaders/application"
-            ]
-          },
-          {
-            "group": "Managing",
-            "pages": [
-              "squad-leaders/dashboard",
-              "squad-leaders/events",
-              "squad-leaders/sponsor-crm",
-              "squad-leaders/agreements"
-            ]
-          },
-          {
-            "group": "Earnings",
-            "pages": [
-              "squad-leaders/revenue",
-              "squad-leaders/payouts"
-            ]
-          },
-          {
-            "group": "Profile",
-            "pages": [
-              "squad-leaders/profile-setup",
-              "squad-leaders/resources"
+              "builders/home",
+              "builders/create-a-team",
+              "builders/submit-a-project",
+              "builders/submit-your-project-video",
+              "builders/add-event-managers",
+              "builders/add-prizes",
+              "builders/send-event-blast",
+              "builders/manage-feedback",
+              "builders/manage-volunteers",
+              "builders/capture-live-demos",
+              "builders/capture-live-presentations"
             ]
           }
         ]

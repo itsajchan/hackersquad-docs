@@ -1,0 +1,94 @@
+---
+title: "Social Content Generator"
+description: "Generate AI-powered social media posts from your ingested content"
+---
+
+<Info>Available on **Pro, Scale, and Enterprise** plans.</Info>
+
+The Social Content Generator helps your DevRel team create targeted social media posts by ingesting your existing content — documentation, blog posts, changelogs — and using AI to generate platform-specific posts from that material.
+
+## How it works
+
+The workflow has three stages:
+
+1. **Ingest** — Submit a URL to crawl and extract content
+2. **Library** — Browse and manage your ingested content assets
+3. **Generate** — Create AI-powered social posts from your content library
+
+## Content ingestion
+
+To add content to your library:
+
+<Steps>
+  <Step title="Open the Social Content Generator">
+    Navigate to the Social Content Generator from your [Company Dashboard](/company-portal/dashboard) or the Content & Contracts section in the sidebar.
+  </Step>
+  <Step title="Submit a URL">
+    Enter the URL of the page you want to ingest (e.g., your API documentation, a blog post, or a changelog entry). The system uses Firecrawl to crawl and extract the page content.
+  </Step>
+  <Step title="Wait for processing">
+    The content is crawled, cleaned, and broken into chunks for the AI to reference. Processing typically takes a few seconds depending on page length.
+  </Step>
+  <Step title="View in your library">
+    Once processed, the content appears in your **Content Library** as a new asset ready for post generation.
+  </Step>
+</Steps>
+
+<Tip>Ingest your API documentation, changelog, or blog posts first, then generate targeted social content from that material.</Tip>
+
+## Content library
+
+The Content Library displays all of your ingested content assets. For each asset you can see:
+
+| Field | Description |
+| --- | --- |
+| **Source URL** | The original URL that was crawled |
+| **Chunks** | The number of content chunks extracted from the page |
+| **Generated Posts** | How many social posts have been created from this asset |
+
+You can delete assets you no longer need from the library. Deleting an asset does not remove posts that were already generated from it.
+
+## AI post generation
+
+To generate a social media post:
+
+<Steps>
+  <Step title="Select a platform">
+    Choose the target social media platform. Each platform has different formatting and character limits:
+
+    | Platform | Character Limit | Style |
+    | --- | --- | --- |
+    | **Twitter** | 280 characters | Concise with hashtags |
+    | **LinkedIn** | 3,000 characters | Professional and detailed |
+    | **Bluesky** | 300 characters | Conversational and engaging |
+    | **Threads** | 500 characters | Casual storytelling |
+  </Step>
+  <Step title="Write a custom prompt">
+    Provide a prompt to guide the AI. For example: "Write a post announcing our new REST API endpoint for user authentication" or "Create a thread highlighting the top 3 features from this changelog."
+  </Step>
+  <Step title="Generate the post">
+    Click **Generate** to create the post. The AI uses your ingested content library as context and produces a platform-formatted post based on your prompt.
+  </Step>
+  <Step title="Review and copy">
+    Review the generated post. You can copy it directly to your clipboard for pasting into the target platform, or generate another version with a different prompt.
+  </Step>
+</Steps>
+
+## Post management
+
+All generated posts are saved in your **Post Library**. From here you can:
+
+- **View** any previously generated post
+- **Copy** post content to your clipboard
+- **Delete** posts you no longer need
+
+## Next steps
+
+<Columns>
+  <Card title="Company Dashboard" icon="gauge" href="/company-portal/dashboard">
+    Return to your dashboard overview.
+  </Card>
+  <Card title="Plans & Pricing" icon="credit-card" href="/plans-and-pricing">
+    Review plan features and upgrade options.
+  </Card>
+</Columns>
