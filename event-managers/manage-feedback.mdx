@@ -1,10 +1,93 @@
 ---
 title: "Manage feedback"
-description: "This page is under construction."
+description: "Review builder feedback, understand the AI analysis workflow, export results, and run raffles from HackerSquad."
 ---
 
-## Under construction
+Feedback helps you capture product experiences that builders might otherwise keep to themselves. It gives event hosts a structured way to learn how builders actually felt about the tools, APIs, and workflows they used during the hackathon.
 
-This page is under construction.
+Feedback also encourages builders to think more deeply about what they are building and the tools they are integrating with. Instead of treating tooling as a black box, builders are pushed to reflect on what worked, what did not, and how each part of the stack shaped the final project.
 
-See [Host an Event](/event-managers/host-an-event) or [View Projects](/event-managers/view-projects) in the meantime.
+You can also incentivize feedback collection with raffles. This makes it easier to gather more responses while still surfacing the highest-quality developer experience feedback inside HackerSquad.
+
+## Find the feedback section
+
+Use the event management portal to open the feedback section for your event.
+
+![Manage feedback navigation](/images/manage-feedback.png)
+
+This is where you review submitted feedback, filter results, export data, and run a raffle.
+
+## Why feedback analysis matters
+
+Builders do not always submit thoughtful feedback on their own. It is common for people to write low-effort responses, very short responses, or AI-generated responses that do not reflect a real developer experience.
+
+To improve quality, every feedback submission goes through a multi-step LLM analysis workflow. This helps HackerSquad identify feedback that is more likely to be human-written and technically useful.
+
+The **LLM Score** reflects the technical depth of the submission. Higher scores generally indicate that the builder explained their experience in more detail and gave more meaningful product feedback.
+
+The points generated from the LLM Score also feed into the leaderboard in the builder portal. This gives builders an additional reason to submit thoughtful, experience-based feedback instead of low-effort responses.
+
+## AI detection overview
+
+HackerSquad includes an AI Detection Overview so you can understand the quality of the feedback collected for your event.
+
+![AI detection overview](/images/feedback-ai.png)
+
+This view helps you quickly understand:
+
+- The total number of feedback submissions
+- How many responses were classified as human-written
+- How many responses were flagged as AI-generated
+- Whether any responses could not be classified
+
+Rejected feedback usually means the submission was flagged as AI-generated, too short, low-quality, or low-effort.
+
+<Note>
+The default filters show only accepted feedback, which helps you focus on the responses most likely to be useful.
+</Note>
+
+## Filter and review feedback
+
+Use the feedback filters to narrow the list to the responses you want to review.
+
+By default, HackerSquad shows accepted feedback first. This helps you spend time on the submissions most likely to contain real developer insights.
+
+As you review feedback, use the LLM analysis and score as signals for depth and quality, especially when you want to understand how builders experienced partner tools or developer workflows.
+
+## Export feedback
+
+Feedback can also be exported from HackerSquad.
+
+Use the export tool to download feedback entries as a CSV file for deeper review, sharing, or post-event analysis.
+
+![Export feedback](/images/feedback-export.png)
+
+Exporting is useful when you want to:
+
+- Share results with internal teams
+- Review feedback outside the platform
+- Analyze product experience trends after the event
+
+## Run a raffle
+
+HackerSquad includes a built-in raffle tool for feedback submissions. When you click the raffle button, the platform randomly selects one feedback entry.
+
+This is a simple way to reward participation and encourage more builders to leave thoughtful feedback during the event.
+
+![Export feedback](/images/feedback-raffle.png)
+
+
+<Tip>
+Mention the raffle during your event and remind builders that thoughtful feedback helps improve the developer experience for future events and product teams.
+</Tip>
+
+## Next steps
+
+<Columns cols={2}>
+  <Card title="Send event blast" icon="megaphone" href="/event-managers/send-event-blast">
+    Remind builders to submit feedback and point them to resources in HackerSquad.
+  </Card>
+  <Card title="View projects" icon="folder-open" href="/event-managers/view-projects">
+    Review submissions alongside the feedback builders leave about their experiences.
+  </Card>
+</Columns>

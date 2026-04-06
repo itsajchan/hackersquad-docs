@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -25,9 +25,9 @@
             "pages": [
               "create-an-event",
               "view-projects",
-              "add-partner-companies",
-              "add-event-managers",
-              "add-prizes",
+              "manage-partner-companies",
+              "manage-event-managers",
+              "manage-prizes",
               "send-event-blast",
               "manage-feedback",
               "manage-volunteers",
@@ -55,9 +55,9 @@
               "event-managers/home",
               "event-managers/create-an-event",
               "event-managers/view-projects",
-              "event-managers/add-partner-companies",
-              "event-managers/add-event-managers",
-              "event-managers/add-prizes",
+              "event-managers/manage-partner-companies",
+              "event-managers/manage-event-managers",
+              "event-managers/manage-prizes",
               "event-managers/send-event-blast",
               "event-managers/manage-feedback",
               "event-managers/manage-volunteers",

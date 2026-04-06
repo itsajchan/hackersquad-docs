@@ -1,10 +1,115 @@
 ---
 title: "Capture live presentations"
-description: "This page is under construction."
+description: "Invite and approve speakers, then use a display-connected base station to receive live presentation requests and capture them through HackerSquad."
 ---
 
-## Under construction
+Capturing live presentations in HackerSquad works very similarly to capturing live demos. You still need a base station connected to the main display, and the speaker still presents wirelessly from their own laptop through HackerSquad.
 
-This page is under construction.
+The difference is that live presentations require speaker setup before anyone can go live. Event managers must add and approve speakers in the event management dashboard first.
 
-See [Host an Event](/event-managers/host-an-event) or [View Projects](/event-managers/view-projects) in the meantime.
+## Add speakers before the event
+
+Start in the event management dashboard and open the speakers navigation.
+
+![Manage speakers navigation](/images/manage-speakers-nav.png)
+
+This takes you to the speakers management page.
+
+![Speakers management page](/images/speakers.png)
+
+On this page, you can review existing speakers or invite new ones.
+
+## Invite and approve speakers
+
+When you invite a speaker, HackerSquad sends them an automatic email with a form to complete.
+
+![Speaker form](/images/speaker-form.png)
+
+After the speaker fills out the form, they still need to be accepted in the speaker management portal before they can present live.
+
+<Tip>
+Invite and approve speakers before the event starts so they are ready to present without delays.
+</Tip>
+
+## What speakers see
+
+Once a speaker has been accepted, they will see a **Present** button on the builder dashboard.
+
+![Present button](/images/present-button.png)
+
+From there, the speaker follows the same general presentation request flow used for live demos.
+
+## Set up a base station
+
+To capture live presentations, you need a computer connected to the main display in the room. This computer acts as the base station for live presentations.
+
+The base station is responsible for receiving requests to go live, showing presenter content on the room display, and helping route the presentation experience through HackerSquad.
+
+On the base station computer, open the event manager dashboard in HackerSquad and select **Live Speakers**. This is the navigation flow the base station uses to receive requests from approved speakers.
+
+![Live demos and speakers navigation](/images/live-demos-speakers-nav.png)
+
+The base station remains the computer that is actively presenting to the main display or projector in the room. This is the screen the audience watches during the live presentation.
+
+## Start the live viewer session
+
+On the base station, open the live viewer tool and click **Start Session**.
+
+![Live viewer tool](/images/live-viewer.png)
+
+Once the session has started, the base station is ready to receive live presentation requests from speakers.
+
+![Live viewer session on](/images/live-viewer-session-on.png)
+
+When a speaker requests to go live, the base station will receive a prompt like this.
+
+![Accept live request](/images/live-demo-session-on-accept-live.png)
+
+Once the base station accepts the request, it presents both the speaker's webcam feed and the screen they shared. This allows the room to see the speaker and the presentation at the same time.
+
+The operator on the base station can also zoom in on the video to expand the desktop view and the presenter view for the audience.
+
+When the presentation timer ends, HackerSquad automatically cuts off the session and begins processing the video production.
+
+## How speakers request to go live
+
+Once a speaker is approved, they go through the presentation request flow inside HackerSquad.
+
+1. The speaker opens the presentation flow from the event experience.
+
+![Speaker presentation step 0](/images/speaker-presentation-step0.png)
+
+2. The speaker begins the request to present.
+
+![Speaker presentation step 1](/images/speaker-presentation-step1.png)
+
+3. The speaker continues through the presentation flow in HackerSquad.
+
+![Speaker presentation step 2](/images/speaker-presentation-step2.png)
+
+4. The speaker reviews the presentation flow and confirms they want to go live.
+
+![Speaker presentation step 3](/images/speaker-presentation-step3.png)
+
+5. The request is sent through HackerSquad so the base station can receive it and prepare the room display.
+
+![Speaker presentation step 4](/images/speaker-presentation-step4.png)
+
+Once accepted, the base station continues presenting that content to the main display or projector while the speaker remains remotely connected and shares their laptop screen.
+
+## Why live presentation capture matters
+
+Captured presentations help preserve key moments from the event, including talks, speaker sessions, and live walkthroughs.
+
+That recorded content can then support the post-event summary, alongside projects, demos, and other event activity captured in HackerSquad.
+
+## Next steps
+
+<Columns cols={2}>
+  <Card title="Capture live demos" icon="monitor-play" href="/event-managers/capture-live-demos">
+    Use a similar base-station workflow for live builder demos.
+  </Card>
+  <Card title="Post event summary" icon="film" href="/event-managers/post-event-summary">
+    See how captured presentations contribute to the final event recap.
+  </Card>
+</Columns>

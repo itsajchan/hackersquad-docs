@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -29,17 +29,19 @@
           {
             "group": "How To",
             "pages": [
-              "event-managers/host-an-event",
               "event-managers/create-an-event",
+              "event-managers/host-an-event",
+              "event-managers/manage-partner-companies",
+              "event-managers/manage-event-managers",
+              "event-managers/manage-prizes",
+              "event-managers/manage-volunteers",
+              "event-managers/share-event-link",
               "event-managers/view-projects",
-              "event-managers/add-partner-companies",
-              "event-managers/add-event-managers",
-              "event-managers/add-prizes",
               "event-managers/send-event-blast",
               "event-managers/manage-feedback",
-              "event-managers/manage-volunteers",
               "event-managers/capture-live-demos",
-              "event-managers/capture-live-presentations"
+              "event-managers/capture-live-presentations",
+              "event-managers/post-event-summary"
             ]
           },
           {
@@ -59,17 +61,8 @@
           {
             "group": "How To",
             "pages": [
-              "builders/home",
               "builders/create-a-team",
-              "builders/submit-a-project",
-              "builders/submit-your-project-video",
-              "builders/add-event-managers",
-              "builders/add-prizes",
-              "builders/send-event-blast",
-              "builders/manage-feedback",
-              "builders/manage-volunteers",
-              "builders/capture-live-demos",
-              "builders/capture-live-presentations"
+              "builders/submit-a-project"
             ]
           }
         ]
